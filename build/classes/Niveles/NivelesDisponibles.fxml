@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #6B8E23;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Niveles.NivelesDisponibles">
+   <children>
+      
+      <Pane fx:id="lienzoNiveles" prefHeight="600.0" prefWidth="800.0" />
+      
+      <AnchorPane layoutX="14.0" layoutY="14.0" opacity="0.8" style="-fx-background-color: black; -fx-background-radius: 10;">
+         <children>
+            <Label fx:id="resistenciaLabel" layoutX="14.0" layoutY="11.0" text="Resistencia: 100" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      
+   </children>
+</AnchorPane>
